@@ -1,0 +1,248 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Attention Visualization - Sample 10</title>
+        <style>
+            .attention-row { margin: 20px 0; }
+            .char {
+                padding: 5px;
+                margin: 2px;
+                border-radius: 3px;
+                display: inline-block;
+                min-width: 30px;
+                text-align: center;
+                font-size: 1.3em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Input: ी़जर्गंअ</h2>
+        <h3>Prediction: angraji</h3>
+        <div style="margin-bottom: 18px;"><b>Attention Color Bar:</b><br><div style="display: flex; align-items: center;"><div style="width: 22px; height: 22px; background: hsl(220,80%,100%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,97%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,94%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,91%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,88%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,85%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,82%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,79%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,76%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,73%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,70%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,67%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,64%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,61%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,58%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,55%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,52%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,49%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,46%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,43%);"></div><div style="width: 22px; height: 22px; background: hsl(220,80%,40%);"></div><span style="margin-left: 10px;">&#8592; Low Attention &nbsp;&nbsp; High Attention &#8594;</span></div></div>
+    <div class="attention-row"><h4>Output character 1 ("a")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 40%); color: #fff;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div><div class="attention-row"><h4>Output character 2 ("n")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 41%); color: #fff;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div><div class="attention-row"><h4>Output character 3 ("g")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 59%); color: #fff;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 97%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 85%); color: #000;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div><div class="attention-row"><h4>Output character 4 ("r")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 58%); color: #fff;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 85%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 99%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div><div class="attention-row"><h4>Output character 5 ("a")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 64%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 83%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 95%); color: #000;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div><div class="attention-row"><h4>Output character 6 ("j")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 88%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 54%); color: #fff;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div><div class="attention-row"><h4>Output character 7 ("i")</h4>
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                अ
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ं
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ग
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ्
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                र
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ज
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ़
+            </span>
+            
+            <span class="char" style="background-color: hsl(220, 80%, 100%); color: #000;">
+                ी
+            </span>
+            </div></body></html>
